@@ -1,0 +1,164 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.row {
+  align-items: center;
+}
+
+.col-6 img{
+  width: 100%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+.signup {
+    border :1px solid #f53855;
+    border-radius: 20px;
+}
+.info h1 {
+    margin: 20px 0px;
+}
+
+.info p {
+    margin: 20px 0px;
+}
+
+.info button {
+    background-color: #f53855;
+    color: white;
+    padding: 5px 40px;
+    box-shadow: 0px 10px 10px #f5385423 ;
+}
+
+.col-sm-8{
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.144);
+  border-radius: 20px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  padding:40px 0;
+}
+
+.states{
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list{
+  margin-bottom:5px
+}
+
+.list span{
+  font-size:14px
+}
+
+.p-50{
+  padding:50px 0;
+}
+
+.list img {
+  max-width: 30px;
+}
+.subscribtion{
+  justify-content:space-evenly; 
+}
+.plan{
+  border : 1px solid #ccc;
+  padding :50px;
+  border-radius :10px;
+  text-align:center;
+}
+.plan img{
+  max-width: 150px;
+}
+.plan h5{
+  margin: 20px 0;
+}
+
+.features{
+  text-align: left;
+}
+
+.brands {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.brands img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.testimonial-header{
+  display:flex;
+  padding :20px;
+  align-items: center;
+}
+
+.testimonial-header p {
+  margin:0px;
+}
+.testimonial-header span {
+  margin:0px 10px;
+}
+.user{
+  display:block;
+  text-align:center;
+  flex:1;
+}
+.star{
+  color:yellow
+}
+.testimonial{
+  border : 1px solid #ccc;
+  border-radius:15px;
+  padding :10px;
+  transition:0.3s
+}
+
+.testimonial:hover{
+    border : 1px solid #f53855;
+}
+
+.footer .col-sm ul {
+  list-style:none;
+}
+
+.width img{
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  .row{
+    text-align:center;
+  }
+  .info{
+    text-align:center;
+  }
+  .plan{
+    margin-top: 10px;
+  }
+  .testimonial{
+    margin-top: 10px;
+  }
+  .call{
+    display: block;
+  }
+}
